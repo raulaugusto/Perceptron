@@ -7,7 +7,7 @@ def perceptron_output(inputs, weights, thold):
     return bias + perceptron_input(inputs, weights)
 
 inputs = [1, 1, 2]
-weights = [1, 1, 2]
+weights = [1, -1, 2.5]
 thold = 1.5
 
 print(perceptron_output(inputs, weights, thold))
